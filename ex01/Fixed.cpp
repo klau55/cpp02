@@ -33,12 +33,10 @@ Fixed::~Fixed() {
 }
 
 int Fixed::getRawBits(void) const {
-    // (same as ex00, optionally print a message if you like)
     return _fixedValue;
 }
 
 void Fixed::setRawBits(int const raw) {
-    // (same as ex00)
     _fixedValue = raw;
 }
 

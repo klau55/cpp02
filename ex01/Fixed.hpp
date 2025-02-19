@@ -23,7 +23,7 @@ public:
     float toFloat(void) const;
     int   toInt(void) const;
 
-    // Getters/Setters (from ex00)
+    // Getters/Setters
     int  getRawBits(void) const;
     void setRawBits(int const raw);
 };

@@ -6,7 +6,6 @@ Fixed::Fixed() : _fixedValue(0) {
 
 Fixed::Fixed(const Fixed &other) {
     std::cout << "Copy constructor called" << std::endl;
-    // We can delegate to the assignment operator so we don't duplicate code
     *this = other;
 }
 
